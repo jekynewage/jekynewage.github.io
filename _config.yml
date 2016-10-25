@@ -2,8 +2,8 @@
 title:
 email:
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/startboostrap.github.io" # the subpath of your site, e.g. /blog/
-url: "https://startboostrap.github.io" # the base hostname & protocol for your site
+baseurl: "/jeynewage.github.io" # the subpath of your site, e.g. /blog/
+url: "https://jeynewage.github.io" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:
