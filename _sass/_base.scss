@@ -410,8 +410,8 @@ footer {
 
 .bg-primary {
   background: $theme-primary;
-  background: -webkit-linear-gradient($theme-primary, #fdc539);
-  background: linear-gradient($theme-primary, #fdc539);
+  background: -webkit-linear-gradient($theme-primary, $theme-secondary);
+  background: linear-gradient($theme-primary, $theme-secondary);
 }
 
 .text-primary {
