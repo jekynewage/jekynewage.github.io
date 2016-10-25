@@ -5,8 +5,16 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/jekynewage.github.io" # the subpath of your site, e.g. /blog/
 url: "https://jekynewage.github.io" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: google-plus
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
 
 # Build settings
 markdown: kramdown
