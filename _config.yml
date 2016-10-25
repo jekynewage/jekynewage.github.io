@@ -1,7 +1,8 @@
 # Site settings
 title: Antonio Trento
-email: 
+email:
 description: > # this means to ignore newlines until "baseurl:"
+disqus_account: officialtrento
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jekynewage.github.io" # the base hostname & protocol for your site
 
