@@ -11,8 +11,8 @@ layout: default
                 {% if page.subtitle %}
                 <p>{{ page.subtitle }}</p>
                 {% endif %}
-                <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                <a href="#post" class="page-scroll"><i class="fa fa-fw fa-arrow-down"></i></a>
+                <p class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</p>
+                <a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a>
             </div>
         </div>
     </div>
