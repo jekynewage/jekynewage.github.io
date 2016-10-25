@@ -29,7 +29,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: $theme-primary;
   &:hover, &:focus {
     color: #fcbd20;
   }
@@ -71,7 +71,7 @@ p {
       font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
       font-weight: 200;
       letter-spacing: 1px;
-      color: #fdcc52;
+      color: $theme-primary;
       &:hover, &:focus {
         color: #fcbd20;
       }
@@ -93,14 +93,14 @@ p {
         color: #222222;
       }
       &:hover, &:focus:hover {
-        color: #fdcc52;
+        color: $theme-primary;
       }
     }
     &.active > a {
-      color: #fdcc52 !important;
+      color: $theme-primary !important;
       background-color: transparent;
       &:focus {
-        color: #fdcc52 !important;
+        color: $theme-primary !important;
         background-color: transparent;
       }
       &:hover, &:focus:hover {
@@ -135,7 +135,7 @@ p {
       .navbar-header .navbar-brand {
         color: #222222;
         &:hover, &:focus {
-          color: #fdcc52;
+          color: $theme-primary;
         }
       }
       .nav > li > a {
@@ -144,7 +144,7 @@ p {
           color: #222222;
         }
         &:hover, &:focus:hover {
-          color: #fdcc52;
+          color: $theme-primary;
         }
       }
     }
@@ -409,13 +409,13 @@ footer {
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: $theme-primary;
+  background: -webkit-linear-gradient($theme-primary, #fdc539);
+  background: linear-gradient($theme-primary, #fdc539);
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: $theme-primary;
 }
 
 .no-gutter > [class*='col-'] {
@@ -429,8 +429,8 @@ footer {
   border: 1px solid;
   &:hover, &:focus, &:active, &.active {
     color: white;
-    background-color: #fdcc52;
-    border-color: #fdcc52;
+    background-color: $theme-primary;
+    border-color: $theme-primary;
   }
 }
 
