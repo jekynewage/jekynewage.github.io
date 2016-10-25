@@ -12,6 +12,7 @@ layout: default
                 <p>{{ page.subtitle }}</p>
                 {% endif %}
                 <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                <a href="#post" class="page-scroll"><i class="fa fa-fw fa-arrow-down"></i></a>
             </div>
         </div>
     </div>
@@ -19,7 +20,7 @@ layout: default
 <hr>
 <!-- Post Content -->
 <article>
-    <div class="container">
+    <div id="post" class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
