@@ -4,7 +4,6 @@ title: "Blog"
 description: "A Clean Blog Theme by Start Bootstrap"
 header-img: "img/post-bg-01.jpg"
 ---
-
 <div class="container-fluid index">
   <div class="row index all-posts">
 
@@ -30,11 +29,11 @@ header-img: "img/post-bg-01.jpg"
       {% if forloop.first %}
       <div class="col-md-12 content-panel articles">
         <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-        <ul>
+        <ul style="list-style: none;">
       {% endif %}
 
           <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
           </li>
       {% if forloop.last %}
@@ -46,7 +45,7 @@ header-img: "img/post-bg-01.jpg"
         </div>
         <div class="col-md-12 content-panel articles">
           <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-          <ul>
+          <ul style="list-style: none;">
         {% endif %}
     {% endif %}
 
