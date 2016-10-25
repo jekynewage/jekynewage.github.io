@@ -1,30 +1,15 @@
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-
-
-    <!-- Google verification -->
-    {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
-
-    <!-- Bing Verification -->
-    {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
-
-    <!-- Custom Fonts
-
-    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    -->
-
+    <title>Creative - Start Bootstrap Theme for Jekyll edited by Antonio Trento</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ "/vendor/bootstrap/css/bootstrap.min.css" }}">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" type="text/css">
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -32,15 +17,14 @@
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="{{ "/vendor/font-awesome/css/font-awesome.min.css" }}">
-    <link rel="stylesheet" href="{{ "/vendor/simple-line-icons/css/simple-line-icons.css" }}">
-    <link rel="stylesheet" href="{{ "/vendor/device-mockups/device-mockups.min.css" }}">
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
 
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="{{ "/css/new-age.min.css" }}">
-
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/
-    <link rel="stylesheet" href="{{ "/style.css" }}"> -->
+    <!-- Custom CSS
+    <link rel="stylesheet" href="css/main.css" type="text/css"> -->
+    <link href="css/main.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,4 +32,5 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>

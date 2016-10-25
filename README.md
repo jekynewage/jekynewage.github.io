@@ -1,32 +1,14 @@
-Freelancer Jekyll theme
-=========================
+# Creative Theme for Jekyll
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
+A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
 
-## How to use
- - Place a image in `/img/portfolio/`
- - Replace `you@email.com` in `_includes/contact_static.html` with your email address. refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
----
-layout: default
-modal-id: 1
-date: 2014-07-18
-img: cabin.png
-alt: image-alt
-project-date: July 2014
-client: The Client
-category: Web Development
-description: The description of the project
+Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
+The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
 
----
-```
+See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
+## To use the Creative Theme template in your project
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+- Start by adding your info in `_config.yml`
+- In `_layouts/front.html` reorder or remove section as you prefer.
 
-=========
-For more details, read the [documentation](http://jekyllrb.com/)
