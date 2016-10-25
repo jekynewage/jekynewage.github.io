@@ -25,7 +25,7 @@ header-img: "img/post-bg-01.jpg"
       {% for category in site.categories %}
       <div class="col-md-12 content-panel articles">
         <h2 id="{{ category | first }}-ref">{{ category | first }}</h2>
-        <ul "list-style: none;">
+        <ul style="list-style: none;">
           {% for posts in category %}
             {% for post in posts %}
               <li>
