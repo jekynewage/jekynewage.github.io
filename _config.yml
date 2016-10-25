@@ -8,11 +8,11 @@ url: "https://jekynewage.github.io" # the base hostname & protocol for your site
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/lantoniotrento
   - title: facebook
-    url:
+    url: https://facebook.com/lantoniotrento
   - title: google-plus
-    url: http://bitbucket.org/jekyll
+    url: https://plus.google.com/+AntoniotrentoIt
   #- title: github
   #  url: http://github.com/jekyll
 
