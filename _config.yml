@@ -13,8 +13,8 @@ social:
     url:
   - title: google-plus
     url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  #- title: github
+  #  url: http://github.com/jekyll
 
 # Build settings
 markdown: kramdown
