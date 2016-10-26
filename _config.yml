@@ -1,12 +1,12 @@
 # Site settings
-title: Antonio Trento
+title: Jeky New Age, the start Bootstrap themplate build by Antonio Trento for jekyll
 email:
 description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jekynewage.github.io" # the base hostname & protocol for your site
 
-google_analytics: ""
+google_analytics: "UA-86331249-1"
 addthis_id: ra-5644da281510c62f
 disqus_account: jeky-new-age
 
