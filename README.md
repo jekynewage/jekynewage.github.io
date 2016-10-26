@@ -16,6 +16,8 @@ This Jekyll template was created to develop, landing pages, squeeze pages, portf
 - Disqus comment system
 - Add This social sharing
 
+>>External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, and WOW.js
+
 In order to set your log data to applications _config.yml just open the file and find the associated items.
 
 I also built a system to add their own names on the same company files
