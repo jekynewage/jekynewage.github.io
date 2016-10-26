@@ -51,8 +51,11 @@ layout: default
 <hr>
 
 {% if site.disqus_account %}
-<div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<article>
+  <div id="disqus" class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
       <h2 class="section-heading">Leave a comment! We <i style="color:red"class="fa fa-heart"></i> it!</h2>
 
       <script id="dsq-count-scr" src="//{{ site.disqus_account }}.disqus.com/count.js" async></script>
@@ -66,10 +69,11 @@ layout: default
       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
       /*
       var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
+      this.page.url = {{ post.url | prepend: site.baseurl }};  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = {{ post.title | prepend: site.baseurl }};; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+
       (function() { // DON'T EDIT BELOW THIS LINE
       var d = document, s = d.createElement('script');
       s.src = '//{{ site.disqus_account }}.disqus.com/embed.js';
@@ -81,6 +85,8 @@ layout: default
 
     </div>
   </div>
+</div>
+</article>
 
 <hr>
 
