@@ -34,8 +34,8 @@ header-img: "img/post-bg-01.jpg"
 
           <li>
             <hr>
-            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <img src="/{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}">
+            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
           </li>
       {% if forloop.last %}
