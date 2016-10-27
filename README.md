@@ -24,5 +24,12 @@ I also built a system to add their own names on the same company files
 
 **To change the base colors yellow go in css folder there main.css where you can set the primary color and the secondary color, remember that the theme is gradient in the background areas**
 
+
+If you are interested in implementing this theme please contact me without any problems I will do what is in my power to help you!
+
+If you have noticed anything unusual or errors in my development I ask you kindly let me know or send a pull request!
+
+Any opinion and critical comment is welcome! So give us inside!
+
 =========
 For more details, read the [documentation](http://jekyllrb.com/)
