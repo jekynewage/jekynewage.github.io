@@ -618,3 +618,7 @@ body {
     }
   }
 }
+
+body::selection, body::-moz-selection {
+  background: #FFF;
+}
