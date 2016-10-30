@@ -18,7 +18,10 @@
                     <a class="page-scroll" href="/blog/">Blog</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="outer-menu" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a></a>
                 </li>
             </ul>
         </div>
@@ -26,3 +29,31 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
+
+
+  <div class="menu">
+    <div>
+      <div>
+        <ul>
+          <li><a href="/">Blog</a></li>
+          <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/blog/">Blog</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+          {% for social in site.social %}
+            {% if social.url %}
+                <li><a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}>
+                  <i class="fa fa-{{ social.icon }}"></i>
+                </a></li>
+                {% endif %}
+              {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
