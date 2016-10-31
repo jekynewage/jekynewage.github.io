@@ -15,7 +15,7 @@ google_analytics: "UA-86331249-1"
 addthis_id: ra-5644da281510c62f
 disqus_account: jeky-new-age
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
   - title: twitter
     url: https://twitter.com/lantoniotrento
