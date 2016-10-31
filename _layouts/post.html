@@ -25,6 +25,7 @@ layout: default
     <div id="post" class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		{% if site.data-ad-client %}  
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- jekynewage google ads -->
                 <ins class="adsbygoogle"
@@ -35,6 +36,7 @@ layout: default
                 <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
+		{% endif %}
 		<hr>
 
 				{{ content }}
