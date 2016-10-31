@@ -16,6 +16,7 @@ View this jekyll theme in action [here](https://jekynewage.github.io/)
 This Jekyll template was created to develop, landing pages, squeeze pages, portfolio and blog or all the above.
 
 ###I integrated analytical tools and marketing such as:
+- Google Ad Words
 - Google analytics
 - Disqus comment system
 - Add This social sharing
