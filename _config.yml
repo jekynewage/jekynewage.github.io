@@ -6,7 +6,10 @@ description: A jekyll template for landing pages, portfolio and blogging
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jekynewage.github.io" # the base hostname & protocol for your site
 
+data-ad-slot: 2973388149
+data-ad-client: ca-pub-9204963049240271
 google_ad_client: ca-pub-9204963049240271
+
 google_analytics: "UA-86331249-1"
 addthis_id: ra-5644da281510c62f
 disqus_account: jeky-new-age
