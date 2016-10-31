@@ -32,14 +32,15 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+    {% if site.google_ad_client %}
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "{{ site.google_ad_client }}",
-    enable_page_level_ads: true
-  });
-</script>
+    <script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "{{ site.google_ad_client }}",
+        enable_page_level_ads: true
+        });
+    </script>
+    {% endif %}
 
     {% if site.addthis_id %}
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
