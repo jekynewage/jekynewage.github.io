@@ -333,6 +333,10 @@ section {
       position: relative;
       z-index: 1;
       h2 {
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: white;
+        max-width: 450px;
         font-size: 100px;
       }
     }
