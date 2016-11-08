@@ -291,6 +291,26 @@ section {
       }
     }
   }
+  &.cta-donate {
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url('../img/donate.jpg');
+    padding: 250px 0;
+    .cta-content {
+      position: relative;
+      z-index: 1;
+      h2 {
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: white;
+        max-width: 450px;
+        font-size: 50px;
+      }
+    }
   &.cta {
     position: relative;
     -webkit-background-size: cover;
@@ -618,5 +638,3 @@ body {
     }
   }
 }
-
-
