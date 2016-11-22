@@ -39,7 +39,7 @@ Any opinion and critical comment is welcome! So give us inside!
 We can get in touch by:
 
 1. By <a href="https://twitter.com/lantoniotrento">twitter</a>
-2. mail <a href="mailto:lantoniotrento@gmail.com">lantoniotrent[at]gmail.com</a>
+2. mail <a href="mailto:lantoniotrento@gmail.com">lantoniotrento[at]gmail.com</a>
 3. Via <a href="https://it.linkedin.com/in/antoniotrento">LinkedIn</a>
 
 =========
