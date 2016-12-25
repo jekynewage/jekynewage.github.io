@@ -4,7 +4,7 @@ email: hello@justgetmoment.com
 description: Moment is a lifestyle brand that provides analog solutions to digital problems. We want to connect people despite technology.
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://justgetmoment.com" # the base hostname & protocol for your site
+url: "http://justgetmoment.com" # the base hostname & protocol for your site
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
 data-ad-slot: 2973388149
