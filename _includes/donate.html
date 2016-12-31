@@ -1,0 +1,39 @@
+<!-- <body>  -->
+    <!-- <div class="container"> -->
+      <!-- <div class="starter-template"> -->
+        <!-- <h1>Donate to foobar.org</h1> -->
+        <!-- noscript warning -->
+        <noscript>
+          <div class="alert alert-block">
+            You'll need JavaScript enabled to donate with Stripe.
+          </div>
+        </noscript>
+
+        <!-- Input form and button -->
+        <p><!-- <form class="form-inline">
+            $ <input id="monies" type="number" pattern="\d*" min="0.5" step="any"
+                     class="input-large" placeholder="25"> -->
+            <button id="paybtn" class="btn btn-info" type="button">Suport and Commit Now!</button>
+          </form></p>
+
+        <!-- Donation status window -->
+        <div id="payment_status" class="alert alert-block fade">
+          <button id="pay_status_close_btn" href="#"
+                  type="button" class="close">&times;</button>
+          <span id="status_message">Enter an amount above.</span>
+        </div>
+      <!-- </div> -->
+
+    <!-- </div>/.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster --> 
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="https://checkout.stripe.com/checkout.js"></script>
+    <script src="https://donate-moment.herokuapp.com/pubkey.js"></script>
+    <script src="/js/donate.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+  <!-- </body>
